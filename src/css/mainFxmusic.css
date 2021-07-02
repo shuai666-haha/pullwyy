@@ -1,0 +1,1111 @@
+/* Tab + 轮播begin */
+
+.ant-tabs-nav {
+    margin: 0 !important;
+}
+
+.Tab .ant-tabs-nav-wrap {
+    height: 35px;
+    line-height: 35px;
+    box-sizing: border-box;
+    background-color: #C20C0C;
+    border-bottom: 1px solid #a40011;
+    color: #fff;
+}
+
+.ant-tabs-nav-list {
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.ant-tabs-tab {
+    font-size: 12px !important;
+    /* margin: 0 30px !important; */
+}
+
+.ant-tabs-tab-btn {
+    padding: 0 13px;
+    margin: 2px 17px 0;
+    height: 20px;
+    line-height: 20px;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    background: #9B0909;
+    color: #fff !important;
+    /* padding: 0 13px; */
+    border-radius: 20px;
+}
+
+.ant-tabs-tab:hover {
+    color: #fff !important;
+}
+
+.ant-tabs-ink-bar {
+    background-color: #C20C0C !important;
+}
+
+.banbg {
+    height: 285px;
+    background: #000;
+    position: relative;
+}
+
+.banbg h3 {
+    margin-bottom: 0;
+}
+
+.banbg .ant-carousel .slick-slider .slick-dots {
+    display: none !important;
+}
+
+.banbg img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    filter: blur(50px);
+}
+
+.bgposition {
+    position: relative;
+}
+
+.bannerbg {
+    /* background: pink; */
+    height: 285px;
+    position: absolute;
+    /* top: 105px; */
+    top: 0;
+    width: 100%;
+}
+
+.bannerbg .warp {
+    /* position: absolute; */
+    position: relative;
+    width: 982px;
+    height: 285px;
+    margin: 0 auto
+}
+
+.bannerbg .bannerBtn {
+    position: relative;
+    z-index: 99;
+    /* transform: translateY(-50%); */
+    top: 50%;
+    display: flex;
+}
+
+.bannerbg .bannerBtn span {
+    display: block;
+    width: 37px;
+    height: 63px;
+    background: url('https://s2.music.126.net/style/web2/img/index/banner.png?4523519d21d8edaceb36bfbef27bea46') 0 9999px no-repeat;
+    position: absolute;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.bannerbg .bannerBtn span:nth-child(1) {
+    left: -68px;
+    background-position: 0 -360px
+}
+
+.bannerbg .bannerBtn span:nth-child(2) {
+    right: -68px;
+    background-position: 0 -508px
+}
+
+.bannerbg .bannerBtn span:nth-child(1):hover {
+    background-position: 0 -430px
+}
+
+.bannerbg .bannerBtn span:nth-child(2):hover {
+    background-position: 0 -578px
+}
+
+.banner h3 {
+    margin: 0;
+}
+
+.banner h3 img {
+    display: block;
+    width: 730px;
+    height: 100%;
+}
+
+.ant-carousel .slick-dots-bottom {
+    width: 730px !important;
+    margin: 0 !important;
+    /* bottom: 0 !important; */
+}
+
+.ant-carousel .slick-dots li {
+    display: block;
+    width: 6px !important;
+    height: 6px !important;
+    border-radius: 50% !important;
+    margin: 0 8px !important;
+}
+
+.ant-carousel .slick-dots-bottom li button {
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 50% !important;
+}
+
+.ant-carousel .slick-dots .slick-active button {
+    background-color: #C20C0C !important;
+}
+
+.ant-carousel .slick-dots button:hover {
+    background-color: #C20C0C !important;
+}
+
+.download {
+    width: 254px;
+    height: 285px;
+    box-shadow: -0px 0px 20px #000;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url('https://s2.music.126.net/style/web2/img/index/download.png?11e3773e3891af75aa4fcb0f248032c6') no-repeat 0 0;
+}
+
+.download a {
+    display: block;
+    width: 215px;
+    height: 56px;
+    margin: 186px 0 0 19px;
+    background: url('https://s2.music.126.net/style/web2/img/index/download.png?11e3773e3891af75aa4fcb0f248032c6') no-repeat 0 0;
+    text-indent: -9999px;
+    background-position: 0 9999px
+}
+
+.download p {
+    margin: 10px auto;
+    text-align: center;
+    color: #8d8d8d;
+    font-size: 12px;
+}
+
+/* main begin */
+
+.Maincon {
+    width: 980px;
+    padding: 20px 20px 40px;
+    min-height: 700px;
+    margin: 0 auto;
+    border: 1px solid #d3d3d3;
+    background-color: #fff;
+    position: relative;
+    /* top: -285px; */
+    border-bottom: none;
+    /* clear: right; */
+}
+
+.Toppicks {
+    width: calc(100% - 251px);
+    margin-bottom: 35px;
+}
+
+.Toptitle {
+    height: 33px;
+    line-height: 33px;
+    padding: 0 10px 0 34px;
+    border-bottom: 2px solid #C10D0C;
+    background: url('https://s2.music.126.net/style/web2/img/index/index.png?4e8200f211370e2625342217abcaacaf') no-repeat 0 9999px;
+    background-position: -225px -156px;
+    display: flex;
+    position: relative;
+}
+
+.Toptitle h2 {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 28px;
+}
+
+.Toptitle ul {
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.Toptitle ul li {
+    list-style: none;
+    float: left;
+    cursor: pointer;
+    /* margin: 0 10px; */
+}
+
+.Toptitle ul li:hover {
+    text-decoration: underline;
+}
+
+.Toptitle ul li span {
+    color: #ccc;
+    margin: 0 10px;
+    font-weight: 700;
+}
+
+.Toptitle .more {
+    position: absolute;
+    right: 15px;
+    color: #666;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.Toptitle .more:hover {
+    text-decoration: underline;
+}
+
+.Toptitle .more span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-left: 4px;
+    vertical-align: middle;
+    background: url('https://s2.music.126.net/style/web2/img/index/index.png?4e8200f211370e2625342217abcaacaf') no-repeat 0 9999px;
+    background-position: 0 -240px;
+}
+
+.Toplist {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Toplist .TopTo {
+    display: block;
+    list-style: none;
+    width: 140px;
+    height: 204px;
+    margin-bottom: 30px;
+}
+
+.Toplist .TopTo .list-img {
+    width: 140px;
+    height: 140px;
+    position: relative;
+}
+
+.Toplist .TopTo .list-img a, .Toplist .TopTo .list-img a img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.Toplist .TopTo .list-img .list-bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 27px;
+    line-height: 27px;
+    background-color: #000;
+    opacity: 0.6;
+    color: #ccc;
+    display: flex;
+    font-size: 12px;
+}
+
+.Toplist .TopTo .list-img .list-bottom .erji {
+    display: block;
+    width: 14px;
+    height: 11px;
+    background: url('https://s2.music.126.net/style/web2/img/iconall.png?2419b23981912ac10f0518a5c91cd37a') no-repeat 0 0;
+    background-position: 0 -24px;
+    margin: 9px 5px 9px 10px;
+}
+
+.Toplist .TopTo .list-img .list-bottom .play {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    width: 16px;
+    height: 17px;
+    cursor: pointer;
+    background: url('https://s2.music.126.net/style/web2/img/iconall.png?2419b23981912ac10f0518a5c91cd37a') no-repeat 0 0;
+}
+
+.Toplist .TopTo .list-img .list-bottom .play:hover {
+    background-position: 0 -60px;
+}
+
+.Toplist .TopTo .list-text {
+    margin: 8px 0 3px;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.Toplist .TopTo .list-text a {
+    max-width: 100%;
+    color: #000 !important;
+}
+
+.Toplist .TopTo .list-text a:hover {
+    text-decoration: underline;
+}
+
+.newdish {
+    /* padding: 20px 20px 40px; */
+    width: calc(100% - 251px);
+}
+
+.newtitle {
+    height: 33px;
+    line-height: 33px;
+    padding: 0 10px 0 34px;
+    border-bottom: 2px solid #C10D0C;
+    background: url('https://s2.music.126.net/style/web2/img/index/index.png?4e8200f211370e2625342217abcaacaf') no-repeat 0 9999px;
+    background-position: -225px -156px;
+    display: flex;
+    position: relative;
+}
+
+.newtitle h2 {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 28px;
+}
+
+.newtitle .more {
+    position: absolute;
+    right: 15px;
+    color: #666;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.newtitle .more:hover {
+    text-decoration: underline;
+}
+
+.newtitle .more span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-left: 4px;
+    vertical-align: middle;
+    background: url('https://s2.music.126.net/style/web2/img/index/index.png?4e8200f211370e2625342217abcaacaf') no-repeat 0 9999px;
+    background-position: 0 -240px;
+}
+
+.newlist {
+    height: 186px;
+    margin: 20px 0 37px;
+    border: 1px solid #d3d3d3;
+    background: #f3f3f3;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+
+.newlist .list-item {
+    margin-top: 28px;
+    box-sizing: border-box;
+    font-size: 12px;
+    position: relative;
+}
+
+.newlist .list-item .list-btn {
+    position: absolute;
+    z-index: 9999;
+    /* top: 50%;
+    transform: translateY(-50%); */
+    display: flex;
+    justify-content: space-between;
+}
+
+.newlist .list-item .list-btn span {
+    display: block;
+    position: absolute;
+    transform: translateY(-50%);
+    width: 17px;
+    height: 17px;
+    background: url('https://s2.music.126.net/style/web2/img/index/index.png?4e8200f211370e2625342217abcaacaf') no-repeat 0 9999px;
+    top: 49px;
+    cursor: pointer;
+}
+
+.newlist .list-item .list-btn span:nth-child(1) {
+    left: -5px;
+    background-position: -260px -75px;
+}
+
+.newlist .list-item .list-btn span:nth-child(2) {
+    background-position: -300px -75px;
+    right: -656px;
+}
+
+.newlist .list-item li {
+    list-style: none;
+    margin-left: 11px;
+    float: left;
+    display: inline;
+    width: 118px;
+    height: 150px;
+    background: url('https://s2.music.126.net/style/web2/img/index/index.png?4e8200f211370e2625342217abcaacaf') no-repeat 0 9999px;
+    background-position: -260px 100px
+}
+
+.newlist .list-item li a {
+    display: block;
+    margin-bottom: 7px;
+    width: 118px;
+    height: 100px;
+    background: url('https://s2.music.126.net/style/web2/img/coverall.png?8904294fd0194b967c486e22856937e3') no-repeat;
+    background-position: 0 -570px;
+}
+
+.newlist .list-item li a img {
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+.newlist .list-item li p {
+    color: #000;
+    width: 90%;
+    line-height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    margin: 0;
+}
+
+.newlist .list-item li span {
+    color: #666;
+    width: 90%;
+    line-height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+
+.newlist .list-item li p:hover, .newlist .list-item li span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.thelist {
+    /* padding: 20px 20px 40px; */
+    width: calc(100% - 251px);
+}
+
+.thetitle {
+    height: 33px;
+    line-height: 33px;
+    padding: 0 10px 0 34px;
+    border-bottom: 2px solid #C10D0C;
+    background: url('https://s2.music.126.net/style/web2/img/index/index.png?4e8200f211370e2625342217abcaacaf') no-repeat 0 9999px;
+    background-position: -225px -156px;
+    display: flex;
+    position: relative;
+}
+
+.thetitle h2 {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 28px;
+}
+
+.thetitle .more {
+    position: absolute;
+    right: 15px;
+    color: #666;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.thetitle .more:hover {
+    text-decoration: underline;
+}
+
+.thetitle .more span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-left: 4px;
+    vertical-align: middle;
+    background: url('https://s2.music.126.net/style/web2/img/index/index.png?4e8200f211370e2625342217abcaacaf') no-repeat 0 9999px;
+    background-position: 0 -240px;
+}
+
+.thelistCon {
+    height: 472px;
+    display: flex;
+    margin-top: 20px;
+    padding-left: 1px;
+    background: url('https://s2.music.126.net/style/web2/img/index/index_bill.png?2d300d6953bb47f99afdf91c92ff853f') no-repeat;
+}
+
+.thelistCon dl {
+    /* float: left; */
+    width: 230px
+}
+
+.thelistCon dt {
+    height: 120px;
+    padding: 20px 0 0 19px;
+}
+
+.thelistCon dt .top-left {
+    width: 82px;
+    height: 80px;
+    background-color: red;
+    float: left;
+}
+
+.thelistCon dt .top-left a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url('https://s2.music.126.net/style/web2/img/coverall.png?8904294fd0194b967c486e22856937e3') no-repeat;
+    background-position: -145px -57px;
+}
+
+.thelistCon dt .top-left a img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.thelistCon dt .top-right {
+    float: left;
+    width: 116px;
+    margin: 6px 0 0 10px;
+}
+
+.thelistCon dt .top-right h3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    font-size: 14px;
+    color: #333;
+    font-weight: 900;
+}
+
+.thelistCon dt .top-right .ritgh-btn {
+    margin-top: 10px;
+}
+
+.thelistCon dt .top-right .ritgh-btn span {
+    display: block;
+    float: left;
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+    background: url('https://s2.music.126.net/style/web2/img/index/index.png?4e8200f211370e2625342217abcaacaf') no-repeat 0 9999px;
+    cursor: pointer;
+}
+
+.thelistCon dt .top-right .ritgh-btn span:nth-child(1) {
+    background-position: -267px -205px
+}
+
+.thelistCon dt .top-right .ritgh-btn span:nth-child(1):hover {
+    background-position: -267px -235px
+}
+
+.thelistCon dt .top-right .ritgh-btn span:nth-child(2) {
+    background-position: -300px -205px;
+}
+
+.thelistCon dt .top-right .ritgh-btn span:nth-child(2):hover {
+    background-position: -300px -235px;
+}
+
+.thelistCon dd ol {
+    height: 319px;
+    margin-left: 50px;
+    line-height: 32px;
+    margin-bottom: 0;
+}
+
+.thelistCon dd ol li {
+    height: 32px;
+    line-height: 32px;
+    list-style: none;
+}
+
+.thelistCon dd ol li span {
+    float: left;
+    position: relative;
+    width: 35px;
+    height: 32px;
+    margin-left: -35px;
+    text-align: center;
+    color: #666;
+    font-size: 16px;
+}
+
+.thelistCon dd ol li:nth-child(-n+3) span {
+    color: #c10d0c;
+}
+
+.thelistCon dd ol li a {
+    /* display: block; */
+    float: left;
+    width: 170px;
+    /* width: 96px; */
+    height: 32px;
+    color: #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+
+.thelistCon dd ol li .oper {
+    display: none;
+    float: right;
+    width: 82px;
+    margin-top: 7px;
+}
+
+.thelistCon dd ol li .oper i {
+    float: left;
+    width: 17px;
+    height: 17px;
+    margin-right: 10px;
+    background: url('https://s2.music.126.net/style/web2/img/index/index.png?4e8200f211370e2625342217abcaacaf') no-repeat 0 9999px;
+    cursor: pointer;
+}
+
+.thelistCon dd ol li .oper i:nth-child(1) {
+    background-position: -267px -268px;
+}
+
+.thelistCon dd ol li .oper i:nth-child(1):hover {
+    background-position: -267px -288px;
+}
+
+.thelistCon dd ol li .oper i:nth-child(2) {
+    margin: 2px 6px 0 0;
+    background: url('https://s2.music.126.net/style/web2/img/icon.png?5904bd777e0fc5976815bd17e9d6b650') no-repeat 0 9999px;
+    background-position: 0 -700px;
+}
+
+.thelistCon dd ol li .oper i:nth-child(2):hover {
+    background-position: -22px -700px;
+}
+
+.thelistCon dd ol li .oper i:nth-child(3) {
+    background-position: -297px -268px;
+}
+
+.thelistCon dd ol li .oper i:nth-child(3):hover {
+    background-position: -297px -288px;
+}
+
+.thelistCon dd ol li:hover a {
+    /* display: block; */
+    text-decoration: underline;
+    width: 96px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+
+.thelistCon dd ol li:hover .oper {
+    display: block;
+}
+
+.thelistCon dd .themore {
+    clear: both;
+    height: 32px;
+    margin-right: 32px;
+    text-align: right;
+    line-height: 32px;
+}
+
+.thelistCon dd .themore a {
+    color: #000;
+    font-size: 12px;
+}
+
+.thelistCon dd .themore a:hover {
+    text-decoration: underline;
+}
+
+.Main-right {
+    position: absolute;
+    width: 250px;
+    height: 100%;
+    border-left: 1px solid #d3d3d3;
+    background-color: #fff;
+    top: 0;
+    right: 0;
+}
+
+.Main-right .user-login {
+    /* display: none; */
+    height: 126px;
+    padding-top: 0;
+    background: url('https://s2.music.126.net/style/web2/img/index/index.png?4e8200f211370e2625342217abcaacaf') no-repeat 0 9999px;
+    background-position: 0 0;
+}
+
+.Main-right .user-login p {
+    width: 205px;
+    margin: 0 auto;
+    padding: 16px 0;
+    line-height: 22px;
+    color: #666;
+    font-size: 12px;
+}
+
+.Main-right .user-login a {
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    height: 31px;
+    line-height: 31px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 1px 0 #8a060b;
+    background: url('https://s2.music.126.net/style/web2/img/index/index.png?4e8200f211370e2625342217abcaacaf') no-repeat 0 9999px;
+    background-position: 0 -195px;
+}
+
+.Main-right .user-login a:hover {
+    background-position: -110px -195px;
+}
+
+.Main-right .user-logins {
+    height: 185px;
+    padding-top: 20px;
+    background: url('https://s2.music.126.net/style/web2/img/index/index.png?f7249aa8846c953cd6b4402bd50b3ca9') no-repeat 0 9999px;
+    background-position: 0 -270px;
+}
+
+.Main-right .user-logins .user-img {
+    height: 90px;
+}
+
+.Main-right .user-logins .user-img .user-imgs {
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    padding: 2px;
+    background: #fff;
+    border: 1px solid #dadada;
+    position: relative;
+    zoom: 1;
+}
+
+.Main-right .user-logins .user-img .user-imgs img {
+    display: block;
+    width: 80px;
+    height: 80px;
+}
+
+.Main-right .user-logins .user-img .user-info {
+    float: left;
+    width: 115px;
+    margin-left: 18px;
+    padding-top: 3px;
+}
+
+.Main-right .user-logins .user-img .user-info h4 a {
+    width: auto;
+    vertical-align: middle;
+    max-width: 60px !important;
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    display: inline-block;
+}
+
+.Main-right .user-logins .user-img .user-info h4 span {
+    width: 43px;
+    height: 16px;
+    background-image: url('https://p5.music.126.net/obj/wo3DlcOGw6DClTvDisK1/4357872257/9f40/483a/0341/78d106c94bf17f8f1e98a2f6748061c4.png');
+    background-size: 100% 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    margin-left: 5px;
+}
+
+.Main-right .user-logins .user-img .user-info p {
+    width: 100%;
+    margin-top: 5px;
+    position: relative;
+}
+
+.Main-right .user-logins .user-img .user-info p a {
+    display: inline-block;
+    height: 17px;
+    overflow: hidden;
+    padding-left: 25px;
+    line-height: 18px;
+    color: #999;
+    font-weight: bold;
+    font-style: italic;
+    vertical-align: middle;
+    background: url('https://s2.music.126.net/style/web2/img/icon2.png?f36c5cd91d1adc354220f283bec8b3b3') no-repeat 0 9999px;
+    background-position: -130px -64px;
+    position: absolute;
+    left: 0;
+    top: 18px;
+}
+
+.Main-right .user-logins .user-img .user-info p a i {
+    float: right;
+    width: 8px;
+    height: 17px;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    background: url('https://s2.music.126.net/style/web2/img/icon2.png?f36c5cd91d1adc354220f283bec8b3b3') no-repeat 0 9999px;
+    background-position: -192px -64px;
+}
+
+.Main-right .user-logins .user-img .user-info .btnwarp {
+    margin-top: 55px;
+}
+
+.Main-right .user-logins .user-img .user-info .btnwarp a {
+    color: #fff;
+    display: inline-block;
+    height: 31px;
+    line-height: 31px;
+    overflow: hidden;
+    vertical-align: top;
+    text-align: center;
+    cursor: pointer;
+    padding: 0 5px 0 0;
+    white-space: nowrap;
+    background: url('https://s2.music.126.net/style/web2/img/button2.png?e26aed6d3fd9567978bef4a1cc785af7') no-repeat 0 9999px;
+    background-position: right -428px;
+}
+
+.Main-right .user-logins .user-img .user-info .btnwarp a i {
+    width: 95px;
+    color: #fff;
+    display: inline-block;
+    height: 31px;
+    line-height: 31px;
+    overflow: hidden;
+    vertical-align: top;
+    text-align: center;
+    cursor: pointer;
+    padding: 0 15px 0 20px;
+    white-space: nowrap;
+    background: url('https://s2.music.126.net/style/web2/img/button2.png?e26aed6d3fd9567978bef4a1cc785af7') no-repeat 0 9999px;
+    background-position: 0 -387px;
+    font-style: normal;
+}
+
+.Main-right .user-logins ul {
+    margin: 12px 0 0 20px;
+}
+
+.Main-right .user-logins ul li {
+    padding-left: 0;
+    float: left;
+    height: 40px;
+    padding: 0 18px;
+    border-right: 1px solid #e4e4e4;
+}
+
+.Main-right .user-logins ul li:first-child {
+    padding-left: 0;
+}
+
+.Main-right .user-logins ul li:last-child {
+    border-right: none;
+    padding-right: 0;
+}
+
+.Main-right .user-logins ul li a {
+    display: block;
+    color: #666;
+}
+
+.Main-right .user-logins ul li a strong {
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.Main-right .user-logins ul li a span {
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+.Main-right .Singer {
+    margin-top: 15px;
+}
+
+.Main-right .Singer h3 {
+    height: 23px;
+    margin: 0 20px;
+    border-bottom: 1px solid #ccc;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    line-height: 19px;
+}
+
+.Main-right .Singer h3 span {
+    font-weight: 900;
+}
+
+.Main-right .Singer h3 a {
+    color: #666;
+}
+
+.Main-right .Singer h3 a:hover {
+    text-decoration: underline;
+}
+
+.Main-right .Singer ul {
+    margin: 6px 0 14px 20px
+}
+
+.Main-right .Singer ul li {
+    margin-top: 14px;
+}
+
+.Main-right .Singer ul li a {
+    display: flex;
+    width: 210px;
+    height: 62px;
+    background: #fafafa;
+}
+
+.Main-right .Singer ul li a:hover {
+    background: #f4f4f4;
+}
+
+.Main-right .Singer ul li a .listhead, .Main-right .Singer ul li a .listhead img {
+    display: block;
+    width: 62px;
+    height: 62px;
+}
+
+.Main-right .Singer ul li a .listifo {
+    width: 100%;
+    height: 62px;
+    padding-left: 14px;
+    border: 1px solid #e9e9e9;
+    border-left: none;
+}
+
+.Main-right .Singer ul li a .listifo h4 {
+    margin-top: 8px;
+    font-weight: 700;
+}
+
+.Main-right .Singer ul li a .listifo p {
+    margin-top: 8px;
+    color: #666;
+    width: 90%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    font-size: 12px;
+}
+
+.Main-right .Singer .Application a {
+    display: block;
+    width: 210px;
+    margin-left: 20px;
+    border-radius: 4px;
+    padding: 0 5px 0 0;
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    height: 31px;
+    line-height: 31px;
+    background: url('https://s2.music.126.net/style/web2/img/button2.png?347066a734b0aeca75167ab00c5b991c') no-repeat 0 9999px;
+    background-position: 0 -59px;
+    border-right: 1px solid #ddd;
+}
+
+.Main-right .HotAnchor {
+    margin-top: 30px;
+}
+
+.Main-right .HotAnchor h3 {
+    height: 23px;
+    margin: 0 20px;
+    border-bottom: 1px solid #ccc;
+    color: #333;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 19px;
+}
+
+.Main-right .HotAnchor ul {
+    margin: 20px 0 0 20px;
+}
+
+.Main-right .HotAnchor ul li {
+    width: 210px;
+    height: 50px;
+    display: flex;
+}
+
+.Main-right .HotAnchor ul li a {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.Main-right .HotAnchor ul li a img {
+    display: block;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 1px #333333 inset;
+}
+
+.Main-right .HotAnchor ul li .listifo {
+    width: 160px;
+    line-height: 21px;
+}
+
+.Main-right .HotAnchor ul li .listifo h4 {
+    max-width: 88%;
+    vertical-align: middle;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    color: #000;
+    font-weight: normal;
+    margin-bottom: 0;
+    line-height: 21px;
+    cursor: pointer;
+}
+
+.Main-right .HotAnchor ul li .listifo h4:hover {
+    text-decoration: underline;
+}
+
+.Main-right .HotAnchor ul li .listifo p {
+    width: 100%;
+    color: #666;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    margin-bottom: 0;
+    line-height: 21px;
+}

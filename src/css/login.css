@@ -1,0 +1,322 @@
+.main-dw {
+    position: relative;
+}
+
+.Login {
+    position: absolute;
+    top: 304px;
+    left: 664px;
+    z-index: 999;
+    width: 530px;
+    border-radius: 4px;
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.8);
+    border: none;
+    background: #fff;
+}
+
+.login-title {
+    position: relative;
+    z-index: 10;
+    border-bottom: 1px solid #191919;
+    border-radius: 4px 4px 0 0;
+    background: #2d2d2d;
+    cursor: move;
+}
+
+.login-title div {
+    padding-right: 45px;
+    margin: 0;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 18px;
+    border-radius: 3px 3px 0 0;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    background-position: 50% 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+
+.login-main {
+    padding: 0;
+    border-width: 0 1px 1px;
+    border-radius: 0 0 4px 4px;
+    background: #fff;
+}
+
+.login-list {
+    padding: 40px 0 39px;
+}
+
+.u-main {
+    float: left;
+    padding: 0 35px 3px 40px;
+    border-right: 1px dotted #ccc;
+}
+
+.u-plt {
+    height: 120px;
+    background: url('https://s2.music.126.net/style/web2/img/platform.png?6f28872774cbc263b0b1ccf2dd559efc') no-repeat 13px 0;
+}
+
+.f-mgt10 {
+    margin-top: 10px;
+}
+
+.f-mgt10 a {
+    width: 219px;
+    /* color: #fff; */
+    background: url('https://s2.music.126.net/style/web2/img/button2.png?5f2885554fe59403db604da425c1d0ee') no-repeat 0 9999px;
+    text-decoration: none;
+    padding: 0 5px 0 0;
+    display: inline-block;
+    height: 31px;
+    line-height: 31px;
+    overflow: hidden;
+    vertical-align: top;
+    text-align: center;
+    cursor: pointer;
+    background-position: right -428px;
+}
+
+.f-mgt10 a i {
+    width: 216px;
+    background: url('https://s2.music.126.net/style/web2/img/button2.png?5f2885554fe59403db604da425c1d0ee') no-repeat 0 9999px;
+    display: inline-block;
+    height: 31px;
+    line-height: 31px;
+    overflow: hidden;
+    vertical-align: top;
+    text-align: center;
+    cursor: pointer;
+    font-style: normal;
+    font-size: inherit;
+    color: #fff;
+    background-position: 0 -387px;
+    padding: 0 15px 0 20px;
+    pointer-events: none;
+}
+
+.f-mgt10 .zhuce {
+    background-position: right -100px;
+}
+
+.f-mgt10 .zhuce i {
+    color: #333;
+    background-position: 0 -59px;
+}
+.u-alt{
+    float: left;
+    padding: 3px 0 3px 39px;
+    margin-top: -15px;
+}
+.u-alt ul li{
+    margin-top: 15px;
+}
+.u-alt ul li a{
+    font-size: 12px;
+    color: #333;
+    line-height: 38px;
+    cursor: pointer;
+}
+.u-alt ul li a i{
+    margin-right: 14px;
+    width: 38px;
+    height: 38px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url('https://s2.music.126.net/style/web2/img/logo.png?d27450b65854996a3c24a5d0a45a85fa') no-repeat 0 9999px;
+    background-position: -150px -670px;
+}
+.u-alt ul li:nth-child(2) a i{
+    background-position: -190px -670px;
+}
+.u-alt ul li:nth-child(3) a i{
+    background-position: -231px -670px;
+}
+.u-alt ul li:nth-child(4) a i{
+    background-position: -271px -670px;
+}
+.u-official-terms{
+    white-space: nowrap;
+    float: left;
+    margin-left: 40px;
+    margin-top: 30px;
+    font-family: NotoSansHans-Regular;
+    font-size: 10px;
+    color: rgba(0,0,0,0.40);
+    line-height: 15px;
+    margin-bottom: 20px;
+}
+.u-official-terms label{
+    margin-left: 2px;
+}
+.u-official-terms a{
+    color:#507DAF
+}
+.login-number{
+    display: none;
+}
+.n-log2-2{
+    padding: 30px 0 43px;
+    width: 220px;
+    margin: 0 auto
+}
+.u-phonewrap{
+    position: relative;
+    height: 30px;
+    margin: 0;
+    border: 1px solid #cdcdcd;
+    border-radius: 2px;
+    z-index: 10;
+}
+.u-phonewrap a{
+    position: relative;
+    float: left;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 18px 0 5px;
+    border-right: 1px solid #cdcdcd;
+    text-decoration: none;
+    color: #333;
+}
+.u-phonewrap a span:last-child{
+    position: absolute;
+    top: 14px;
+    right: 7px;
+    width: 7px;
+    height: 4px;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    background: url('https://s2.music.126.net/style/web2/img/icon2.png?3ab917cc8043746ec2eb18e005897e89') no-repeat 0 9999px;
+    background-position: -260px -450px;
+}
+.txtwrap{
+    overflow: hidden;
+}
+.txtwrap input{
+    box-sizing: content-box;
+    width: 206px;
+    display: block;
+    padding: 5px 8px 5px;
+    height: 17px;
+    line-height: 17px;
+    border: none;
+    margin: 0;
+    border-radius: 2px;
+    outline: none;
+}
+.f-mgt10{
+    margin-top: 10px;
+}
+.f-mgt10 input{
+    width: 206px;
+    height: 19px;
+    margin: 0;
+    padding: 5px 6px 6px;
+    border: 1px solid #cdcdcd;
+    border-radius: 2px;
+    line-height: 19px;
+    box-sizing: content-box;
+    font-size: 12px;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+}
+.f-mgt20{
+    margin-top: 10px;
+}
+.f-mgt20 label input{
+    margin: 0 12px 0 0;
+    vertical-align: middle;
+    font-size: 12px;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.f-mgt20 a{
+    float: right;
+    color: #333;
+}
+.f-mgt30{
+    margin-top: 20px;
+}
+.f-mgt30 a{
+    width: 215px;
+    color: #fff;
+    padding: 0 5px 0 0;
+    white-space: nowrap;
+    display: inline-block;
+    height: 31px;
+    line-height: 31px;
+    overflow: hidden;
+    vertical-align: top;
+    text-align: center;
+    cursor: pointer;
+    background: url('https://s2.music.126.net/style/web2/img/button2.png?5f2885554fe59403db604da425c1d0ee') no-repeat 0 9999px;
+    background-position: right -428px;
+}
+.f-mgt30 a i{
+    width: 208px;
+    color: #fff;
+    padding: 0 15px 0 20px;
+    pointer-events: none;
+    display: inline-block;
+    height: 31px;
+    line-height: 31px;
+    overflow: hidden;
+    vertical-align: top;
+    text-align: center;
+    cursor: pointer;
+    background: url('https://s2.music.126.net/style/web2/img/button2.png?5f2885554fe59403db604da425c1d0ee') no-repeat 0 9999px;
+    background-position: 0 -387px;
+    font-style: normal;
+    font-size: inherit;
+}
+.n-loglink2{
+    padding: 0 19px;
+    height: 48px;
+    border-top: 1px solid #c6c6c6;
+    border-radius: 0 0 4px 4px;
+    line-height: 48px;
+    background-color: #f7f7f7;
+}
+.n-loglink2 a:nth-child(1){
+    color: #0c72c3;
+    font-size: 12px;
+    float: left;
+}
+.n-loglink2 a:nth-child(2){
+    font-size: 12px;
+    color: #999;
+    float: right;
+}
+.closelogin{
+    position: absolute;
+    z-index: 20;
+    top: 16px;
+    right: 20px;
+    width: 10px;
+    height: 10px;
+    overflow: hidden;
+    text-indent: -9999px;
+    cursor: pointer;
+    background: url('https://s2.music.126.net/style/web2/img/layer/layer.png?f25c9aa5479f31ddecd09a5b82887c72') no-repeat 0 9999px;
+    background-position: 0 -95px;
+}
+
+.mask{
+    position: fixed;
+    z-index: 998;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
+}

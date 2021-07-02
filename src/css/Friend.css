@@ -1,0 +1,38 @@
+.Friend{
+    width: 980px;
+    min-height: 700px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #d3d3d3;
+    border-width: 0 1px;
+}
+.FriendCon{
+    width: 902px;
+    height: 414px;
+    margin: 0 auto 0;
+    padding-top: 70px;
+    background: url('https://s2.music.126.net/style/web2/img/notlogin.jpg?16fcba87f70c447247856e20ad613702') no-repeat 0 9999px;
+    background-position: 0 70px;
+}
+.FriendCon span{
+    display: block;
+    padding: 178px 0 0 535px;
+    line-height: 23px;
+    color: #666;
+    font-size: 14px;
+}
+.FriendCon span p{
+    margin-bottom: 0;
+}
+.FriendCon a{
+    display: block;
+    width: 157px;
+    height: 48px;
+    margin: 36px 0 0 536px;
+    background-position: 0 9999px;
+    text-indent: -9999px;
+    background: url('https://s2.music.126.net/style/web2/img/notlogin.jpg?16fcba87f70c447247856e20ad613702') no-repeat 0 9999px;
+}
+.FriendCon a:hover{
+    background-position: 0 -430px;
+}

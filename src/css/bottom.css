@@ -1,0 +1,115 @@
+.bottom{
+    height: 172px;
+    overflow: hidden;
+    border-top: 1px solid #d3d3d3;
+    background: #f2f2f2;
+}
+.bottomCon{
+    width: 980px;
+    margin: 0 auto;
+    display: flex;
+}
+.bottom-left{
+    width: 520px;
+    padding-top: 15px;
+    line-height: 24px;
+    font-size: 12px;
+}
+.bottom-left p{
+    margin-bottom: 0;
+}
+.bottom-left a{
+    color: #999;
+    font-size: 12px;
+}
+.bottom-left a:hover{
+    color: #999;
+    text-decoration: underline;
+}
+.bottom-left .text-one span{
+    margin: 0 8px 0 10px;
+color: #c2c2c2;
+}
+.bottom-left .text-two span,.bottom-left .text-two a{
+    color: #666;
+}
+.bottom-left .text-two span:nth-child(1){
+    margin-right: 14px;
+}
+.text-three a{
+    color: #333 !important;
+}
+.four a{
+    color: #666;
+}
+.four .four-logo{
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: url('https://s2.music.126.net/style/web2/img/3rd/police.png?85dc4d26880878cbad8057184d78f34a') no-repeat;
+    background-size: cover;
+    display: inline-block;
+    margin-right: 2px !important;
+    margin-left: 8px !important;
+}
+.bottom-right{
+    width: 420px;
+    margin-top: 33px;
+}
+.bottom-right ul{
+  display: flex;
+}
+.bottom-right ul li{
+    width: 60px;
+    height: 70px;
+    margin-left: 30px;
+    text-align: center;
+    color: #666;
+}
+.bottom-right ul li a{
+    display: block;
+    float: none;
+    width: 50px;
+    height: 45px;
+    margin: 0 auto;
+    background: url('https://s2.music.126.net/style/web2/img/foot_enter_new.png?e1cc2443dff238f728928d634ccd4bec') no-repeat;
+    background-size: 110px 552px;
+    background-position: -63px -456.5px;
+}
+.bottom-right ul li span{
+    display: inline-block;
+    margin: 5px 5px 0;
+    height: 14px;
+    background: url('https://s2.music.126.net/style/web2/img/foot_enter_tt.png?038a3f2e7b76371ef2306d1cd0e14c59') no-repeat;
+    background-size: 180px 139px;
+    background-position: 0 -108px;
+    width: 72px;
+}
+.bottom-right ul li:nth-child(1) span{
+        margin-left: -6px;
+}
+.bottom-right ul li:nth-child(2) a{
+    background-position: -63px -101px;
+}
+.bottom-right ul li:nth-child(2) span{
+    background-position: -1px -91px;
+}
+.bottom-right ul li:nth-child(3) a{
+    background-position: 0 0;
+}
+.bottom-right ul li:nth-child(3) span{
+    background-position: 0 0;
+}
+.bottom-right ul li:nth-child(4) a{
+    background-position: -60px -50px;
+}
+.bottom-right ul li:nth-child(4) span{
+    background-position: 0 -54px;
+}
+.bottom-right ul li:nth-child(5) a{
+    background-position: 0 -101px;
+}
+.bottom-right ul li:nth-child(5) span{
+    background-position: -1px -72px;
+}
+

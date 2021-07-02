@@ -1,0 +1,110 @@
+.Maincon .music-left .songimg img{
+    width: 130px;
+    height: 130px;
+    margin: 34px;
+}
+.Maincon .music-left .songimg span{
+    background: url('https://s2.music.126.net/style/web2/img/coverall.png?907bac5af26ce134b53a520667f5cebe') no-repeat 0 9999px;
+    background-position: -140px -580px;
+} 
+.Maincon .music-left  .Gditem-t-right .Gditem-t-right-hd i{
+    background: url('https://s2.music.126.net/style/web2/img/icon.png?fd63ccb8cd999287ccc1de79b0061620') no-repeat 0 9999px;
+    background-position: 0 -463px;
+    margin-right: 5px;
+}
+.Gditem-t-right .biaoqian{
+    margin-top: 0;
+}
+.Gditem-t-right .biaoqian span,.Gditem-t-right-intr span{
+   color: #0c73c2;
+   margin-left: 5px;
+   cursor: pointer;
+}
+.Gditem-t-right .biaoqian span:hover,.Gditem-t-right-intr span:hover{
+    text-decoration: underline;
+}
+.Commentary .cmmts .cmmte-item .cntwrap .count-mar a:nth-child(2) {
+    margin-right: 25px;
+    vertical-align: 0;
+}
+.play-bottom{
+    height: 53px;
+    width: 100%;
+    background: url('https://s2.music.126.net/style/web2/img/frame/playbar.png?f207995bc9699238330f82facf1bf7a3') no-repeat 0 9999px;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    position: fixed;
+    bottom: -53px;
+}
+.play-bottom .play-bottomcon{
+    width: 980px;
+    height: 47px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 6px;
+    /* background-color: red; */
+    display: flex;
+}
+.play-bottom .play-bottomcon .bottom-left-btns{
+    display: flex;
+    align-items: center;
+}
+.play-bottom .play-bottomcon .bottom-left-btns a{
+    display: block;
+    float: left;
+    width: 28px;
+    height: 28px;
+    margin-right: 8px;
+    margin-top: 5px;
+    text-indent: -9999px;
+    background: url('https://s2.music.126.net/style/web2/img/frame/playbar.png?f207995bc9699238330f82facf1bf7a3') no-repeat 0 9999px;
+}
+.play-bottom .play-bottomcon .bottom-left-btns a:nth-child(1){
+    background-position: 0 -130px;
+}
+.play-bottom .play-bottomcon .bottom-left-btns .plays{
+    background-position: 0 -165px !important;
+}
+.play-bottom .play-bottomcon .bottom-left-btns a:nth-child(2){
+    width: 36px;
+    height: 36px;
+    margin-top: 0;
+    background-position: 0 -204px;
+}
+.play-bottom .play-bottomcon .bottom-left-btns a:nth-child(3){
+    background-position: -80px -130px;
+}
+.play-bottom .play-bottomcon .bottom-left-head{
+    position: relative;
+    margin: 6px 15px 0 0;
+}
+.play-bottom .play-bottomcon .bottom-left-head img{
+    display: block;
+    width: 34px;
+    height: 34px;
+}
+.play-bottom .play-bottomcon .bottom-left-head a{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: block;
+    width: 34px;
+    height: 35px;
+    background: url('https://s2.music.126.net/style/web2/img/frame/playbar.png?f207995bc9699238330f82facf1bf7a3') no-repeat 0 9999px;
+    background-position: 0 -80px;
+}
+.play-bottom .play-bottomcon .bottom-left-musicname {
+    line-height: 47px;
+}
+.play-bottom .play-bottomcon .bottom-left-musicname a{
+    color: #e8e8e8;
+}
+.play-bottom .play-bottomcon .bottom-left-musicname span{
+    margin-left: 15px;
+    color: #9b9b9b;
+}
+.play-bottom .play-bottomcon .bottom-left-musicname a:hover,.play-bottom .play-bottomcon .bottom-left-musicname span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
